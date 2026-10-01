@@ -1,0 +1,16 @@
+{
+  "id": "request-pipeline",
+  "name": "Request Pipeline",
+  "description": "Slack request folders, plan approval, qwen2.5vl JSON, then MiMo execution.",
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": ["pipeline"]
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
